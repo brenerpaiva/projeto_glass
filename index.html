@@ -7,7 +7,12 @@
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 </head>
+<script>
+function mudaFoto (foto){
+  document.getElementById("icone").src=foto;
+}
 
+</script>
 <body>
 <div id="interface">
     <header id="cabecalho">
@@ -23,11 +28,11 @@
   <nav id="menu">
   <h1>Menu Principal</h1>
   <ul>
-      <li> <a href="index.html">Home </a></li> 
-      <li> <a href="specs.html"> Especificações </a></li> 
-      <li> <a href="fotos.html"> Fotos </a></li> 
-      <li><a href="multimidia.html"> Multimídia </a></li> 
-      <li><a href="fale-conosco.html">Fale conoscome </a></li> 
+      <li onmouseover="mudaFoto('imagem/home.png')" onmouseout="mudaFoto('imagem/glass-oculos-preto-peq.png.png')"> <a href="index.html">Home</a></li> 
+      <li onmouseover="mudaFoto('imagem/especificacoes.png')" onmouseout="mudaFoto ('imagem/glass-oculos-preto-peq.png.png')"> <a href="specs.html"> Especificações </a></li> 
+      <li onmouseover="mudaFoto('imagem/fotos.png')" onmouseout="mudaFoto ('imagem/fotos.png')"> <a href="fotos.html"> Fotos </a></li> 
+      <li onmouseover="mudaFoto('imagem/multimidia.png')" onmouseout="mudaFoto ('imagem/glass-oculos-preto-peq.png.png')"><a href="multimidia.html"> Multimídia </a></li> 
+      <li onmouseover="mudaFoto('imagem/contato.png')" onmouseout="mudaFoto ('imagem/glass-oculos-preto-peq.png.png')"><a href="fale-conosco.html">Fale conoscome </a></li> 
    </ul> 
    </nav>
     </header>
