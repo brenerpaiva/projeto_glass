@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo sobre Google Glass</title>
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" href="css/form.css"/>
 
 </head>
 <script language="javascript" src="javascript/funcoes.js"></script>
@@ -17,7 +18,7 @@
     <h2>A revolução do Google está chegando</h2> </br> 
     </hgroup>
    
-    <img id="icone" src="imagem/glass-oculos-preto-peq.png.png">
+    <img id="icone" src="imagem/contato.png">
     
   </br>
    
@@ -32,48 +33,51 @@
    </ul> 
    </nav>
     </header>
-[AQUI ENTRA UMA FOTO]
+<section id="corpo-full">
+    <article id="noticia-principal">
+      <header id="cabecalho-artigo">
+        <hgroup>
+            <h3>Fale Conosco > Contato</h3>
+            <h1>Formulário de Contato</h1>
+            <h2>por Brener Castro de Paiva</h2>
+            <h3 class="direita"> Atualizado em 06/novembro/2025</h3>
+            </hgroup>
+          </header>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
 
-Fale Conosco > Contato
-Formulário de Contato
-por Brener Castro de Paiva
-Atualizado em 06/novembro/2025
+<form>
+    
+   <fieldset id="usuario"> <legend> Identificação do Usuário </legend>
+    <p> <label for="cNome">Nome</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/> </p>
+    <p>Senha: <input type="password" name="=tSenha" id="Csenha" size="8" maxlength="8" placeholder=" 8 dígitos"/></p>
+    <p>E-mail: <input type="email" name id="cMail" size="20" maxlength="40"/> </p>
+    <fieldset id="sexo"> <legend>sexo</legend>
+        <input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc"> Masculino </label> <br/>
+        <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label></fieldset>
+    <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"> </p>
+</fieldset>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
-
-Endereço do Usuário
+<fieldset id="endereco"> <legend> Endereço do Usuário </legend>
     Logradouro:
     Número:
     Estado:
     Cidade:
+</fieldset>
 
-Mensagem do Usuário
+<fieldset id="mensagem"> <legend>do Usuário</legend>
     Grau de Urgência:
     Mensagem:
+</fieldset>
 
-Quero um Google Glass
+<fieldset id="pedido"> <legend>um Google Glass</legend>
     Gostaria de adquirir um Google Glass quando disponível
     Cor:
     Quantidade:
     Preço Total: R$
-
+</fieldset>
 
 [BOTÃO ENVIAR]
-
+</form>
 
 <footer id="rodape">
    <p>Copyright &copy; 2025 - by Brener Castro de Paiva  <br/> 

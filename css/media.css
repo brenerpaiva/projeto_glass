@@ -23,6 +23,15 @@ video#filme{
 
 }
 
+video#filme-index{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+    border: 3px solid #606060;
+    background-color: #000000;
+}
+
 video#filme-index1{
 
     display: block;
